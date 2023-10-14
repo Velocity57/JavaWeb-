@@ -31,6 +31,7 @@ public class HelloServlet extends HttpServlet {
         list1.add(message1);
         list1.add("今天天气怎么样？");
 
+        System.out.println("zheci diyici xiugai daima");
         response.setContentType("text/html;charset=UTF-8");
         // Hello
         PrintWriter out = response.getWriter();
